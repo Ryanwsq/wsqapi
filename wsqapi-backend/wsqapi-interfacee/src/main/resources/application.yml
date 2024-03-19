@@ -1,0 +1,12 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+wsqapi:
+  client:
+    access-key: wsqq
+    secret-key: abcdefgh
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
